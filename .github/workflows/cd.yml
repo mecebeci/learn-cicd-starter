@@ -34,4 +34,4 @@ jobs:
           gcloud auth list
 
       - name: Submit image to Cloud Build
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/notely-ar-repo/notely:latest
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-474612/notely-ar-repo/notely:latest
